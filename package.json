@@ -1,0 +1,25 @@
+{
+  "name": "musicbot",
+  "version": "1.0.0",
+  "description": "MoistPlayer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.7.5",
+    "discord-buttons": "^2.4.1",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "0.7.9"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  }
+}
