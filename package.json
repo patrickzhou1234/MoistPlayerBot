@@ -13,6 +13,7 @@
     "@discordjs/opus": "^0.7.0",
     "@discordjs/voice": "^0.7.5",
     "discord-buttons": "^2.4.1",
+    "discord-menus": "^1.0.8",
     "discord.js": "^12.5.1",
     "express": "^4.17.2",
     "ffmpeg": "0.0.4",
