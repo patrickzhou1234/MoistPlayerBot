@@ -114,9 +114,13 @@ client.on('clickButton', async (button) => {
 });
 
 MenusManager.on('MENU_CLICKED', (menu) => {
-    queue = menu.values[0];
+    queue = parseInt(menu.values[0]);
     menu.defer();
     voiceChannel.join().then(connection => {dispatcher = connection.play('tracks/'+songs[queue]+'.mp3');onEnd();});
+});
+
+client.on("ready", () => {
+    client.user.setActivity("Listening for 'join'"); 
 });
 
 client.login(process.env.TOKEN)
